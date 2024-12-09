@@ -1,15 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package project.eda;
 
-/**
- *
- * @author Lenovo
- */
 public class Grafos {
-     private int Q, A, peso;
+    public final static int INF = 999999;
+    private int Q, A, peso;
     private int matrizAdyacencia[][];
     
     public Grafos(int nodos){
